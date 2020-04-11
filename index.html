@@ -3,34 +3,24 @@
 
 <head>
 	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width">
 	<title>iNode - another online Nodejs playground.</title>
+	<link rel="stylesheet" href="style.css">
 	<script src="https://embed.runkit.com" data-element-id="app"></script>
-	<style>
-    html {
-      background-color: #f6f8fa;
-    }
-    body {
-      padding: 20px;
-    }
-		pre {
-			padding-top: 5rem;
-			max-width: 900px;
-			margin-left: auto;
-			margin-right: auto;
-		}
-	</style>
 </head>
 
 <body>
-	<pre id="app">
-  const get = require('lodash.get');
+	<main>
+		<pre id="app">
+      const get = require('lodash.get');
 
-  const obj = { hi: 'Hello, iNode.' };
-  console.log(
-    get(obj, 'hi')
-  );
-</pre>
+      const obj = { hi: 'Hello, iNode.' };
+      console.log(
+        get(obj, 'hi')
+      );
+    </pre>
+	</main>
+	<footer> © iNode </footer>
 </body>
 
 </html>

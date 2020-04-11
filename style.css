@@ -1,0 +1,24 @@
+html {
+  font-family: sans-serif;
+  background-color: #f6f8fa;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: hidden;
+}
+
+pre {
+  padding-top: 5rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #a0aec0;
+  position: fixed;
+  bottom: 1rem;
+  left: calc(50% - 25px);
+}

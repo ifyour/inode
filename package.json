@@ -4,7 +4,7 @@
   "description": "🛹 Node.js playground base on Runkit.",
   "main": "index.html",
   "scripts": {
-    "start": "serve .",
+    "start": "serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
