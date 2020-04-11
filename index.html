@@ -1,8 +1,26 @@
-<!-- Insert this line in your HTML. -->
-<script src="https://embed.runkit.com" data-element-id="my-element"></script>
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- anywhere else on your page -->
-<pre id="my-element">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>iNode - another online Nodejs playground.</title>
+	<script src="https://embed.runkit.com" data-element-id="app"></script>
+	<style>
+    html {
+      background-color: #f6f8fa;
+    }
+		pre {
+			width: 900px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 5rem;
+		}
+	</style>
+</head>
+
+<body>
+	<pre id="app">
   const get = require('lodash.get');
 
   const obj = {hi: 'Hello, iNode.'};
@@ -10,3 +28,6 @@
     get(obj, 'hi')
   );
 </pre>
+</body>
+
+</html>
