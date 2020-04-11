@@ -18,7 +18,4 @@ footer {
   text-align: center;
   font-size: 0.875rem;
   color: #a0aec0;
-  position: fixed;
-  bottom: 1rem;
-  left: calc(50% - 25px);
 }
