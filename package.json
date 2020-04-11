@@ -1,0 +1,24 @@
+{
+  "name": "inode",
+  "version": "1.0.0",
+  "description": "🛹 Node.js playground base on Runkit.",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifyour/inode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifyour/inode/issues"
+  },
+  "homepage": "https://github.com/ifyour/inode#readme",
+  "dependencies": {
+    "serve": "^11.3.0"
+  }
+}
