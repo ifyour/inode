@@ -3,6 +3,21 @@ html {
   background-color: #f6f8fa;
 }
 
+.logo h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h1 span {
+  position: relative;
+  top: 9px;
+  right: 5px;
+  color: #33b277;
+  font-family: fantasy;
+  font-size: 50px;
+}
+
 main {
   max-width: 800px;
   margin: 0 auto;
@@ -11,7 +26,7 @@ main {
 }
 
 pre {
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 footer {
