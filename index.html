@@ -1,0 +1,12 @@
+<!-- Insert this line in your HTML. -->
+<script src="https://embed.runkit.com" data-element-id="my-element"></script>
+
+<!-- anywhere else on your page -->
+<pre id="my-element">
+  const get = require('lodash.get');
+
+  const obj = {hi: 'Hello, iNode.'};
+  console.log(
+    get(obj, 'hi')
+  );
+</pre>
