@@ -4,7 +4,7 @@
 🛹 Node.js playground base on Runkit.
 
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/15377484/79133485-ad2f6e80-7dde-11ea-8336-4d207a500418.png" alt="demo" />
+  <img width="60%" src="https://user-images.githubusercontent.com/15377484/79133485-ad2f6e80-7dde-11ea-8336-4d207a500418.png" alt="demo" />
 </p>
 
 ## Usage
