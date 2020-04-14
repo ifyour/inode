@@ -35,3 +35,8 @@ footer {
   font-size: 0.875rem;
   color: #a0aec0;
 }
+
+footer a {
+  position: relative;
+  top: 2px;
+}
