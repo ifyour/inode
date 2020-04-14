@@ -26,17 +26,17 @@ main {
   overflow: hidden;
 }
 
-/* pre {
-  padding-top: .5rem;
-} */
-
 footer {
   text-align: center;
+}
+
+footer a {
+  text-decoration: none;
   font-size: 0.875rem;
   color: #a0aec0;
 }
 
-footer a {
+footer a img{
   position: relative;
   top: 2px;
 }
